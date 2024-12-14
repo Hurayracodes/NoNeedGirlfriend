@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(m.png);
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    font-family: 'Great Vibes';
+
+    color: #ffffff;
+}
+.heart-container {
+    margin: 20px auto;
+    width: 120px;
+    height: 120px;
+    background: url('heart.webp') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+.heart-container.beating {
+    animation: heartbeat 1s infinite;
+}
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+#message, #message1 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 10px 0;
+    display: none;
+    color: #ffffff;
+}
+.container {
+    max-width: 70%;
+    margin-top: 20px;
+    padding: 35px;
+    display: inline-block;
+    text-align: left;
+}
+.container label {
+    font-family: 'Raleway';
+    font-size: 25px;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+.container input {
+    font-size: x-large;
+    color: white;
+    background: linear-gradient(to right, #0f2027, #2c5364);
+    width: 75%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ffee00;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.container button {
+    font-size: large;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #3547e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #ff0000;
+}
+/* Footer Styling */
+footer {
+    font-size: 14px;
+    margin-top: 100px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    font-size: larger;
+    text-align: center;
+    margin-top: 6px;
+}
